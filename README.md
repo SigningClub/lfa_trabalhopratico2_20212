@@ -1,2 +1,6 @@
-# lfa_trabalhopratico2_20212
- Trabalho prático de linguagens formais e automatos
+Algoritmo CYK
+Na ciência da computação, o algoritmo Cocke – Younger – Kasami (alternativamente chamado de CYK ou CKY) é um algoritmo de análise para gramáticas livres de contexto, nomeado em homenagem a seus inventores, John Cocke, Daniel Younger e Tadao Kasami. Emprega análise de baixo para cima e programaçao dinamica.
+
+A versão padrão do CYK opera apenas em gramáticas livres de contexto fornecidas na forma normal de Chomsky (CNF). No entanto, qualquer gramática livre de contexto pode ser transformada em uma gramática CNF expressando a mesma linguagem.
+
+A importância do algoritmo CYK decorre de sua alta eficiência em certas situações. Usando a notação Big O, o pior caso de tempo de execução de CYK é O (n ^ 3 ⋅ | G |), onde n é o comprimento da string analisada e | G | é o tamanho da gramática G. do CNF. Isso o torna um dos algoritmos de análise sintática mais eficientes em termos de complexidade assintótica de pior caso, embora existam outros algoritmos com melhor tempo médio de execução em muitos cenários práticos.
